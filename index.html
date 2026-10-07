@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Proteção do seu empréstimo | Case Itaú</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="app">
+  <header class="header">
+    <div class="brand">itaú</div>
+    <div class="header-title">Case • Seguro Prestamista</div>
+    <button class="mode-btn" id="modeBtn">Modo gestor</button>
+  </header>
+
+  <main>
+    <section id="clientMode" class="mode active">
+      <div class="intro">
+        <div>
+          <span class="tag">SIMULAÇÃO INTERATIVA</span>
+          <h1>Proteção no momento certo.</h1>
+          <p>Uma jornada conceitual para mostrar como o Itaú poderia apresentar a proteção de forma simples, contextualizada e mensurável.</p>
+        </div>
+        <div class="principle">
+          <span>💡</span>
+          <strong>Não é só vender.</strong>
+          <small>É ajudar o cliente a entender antes de decidir.</small>
+        </div>
+      </div>
+
+      <div class="phone-wrap">
+        <div class="phone">
+          <div class="phone-top">
+            <button id="back" class="phone-icon">‹</button>
+            <span>itaú</span>
+            <button class="phone-icon">?</button>
+          </div>
+          <div id="phoneContent"></div>
+          <div class="phone-nav"><span>⌂<small>Início</small></span><span>▣<small>Conta</small></span><span class="selected">▤<small>Empréstimos</small></span><span>♡<small>Benefícios</small></span><span>⋯<small>Mais</small></span></div>
+        </div>
+        <div class="journey-copy">
+          <span id="stepLabel">1 de 7</span>
+          <h2 id="journeyTitle">Início</h2>
+          <p id="journeyText">A cliente chega ao app para simular o crédito.</p>
+          <div class="dots" id="dots"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="managerMode" class="mode">
+      <div class="dashboard-head">
+        <div>
+          <span class="tag">MODO GESTOR / PRODUTO</span>
+          <h1>Laboratório de crescimento</h1>
+          <p>O mesmo produto visto pelos dados: funil, qualidade da contratação e experimentos.</p>
+        </div>
+        <div class="north-star"><span>★</span><b>North Star</b><small>Contratação adequada</small></div>
+      </div>
+
+      <div class="kpis">
+        <div class="kpi"><span>Expostos</span><strong id="kpiExposed">10.000</strong><small>clientes elegíveis</small></div>
+        <div class="kpi"><span>Conversão</span><strong id="kpiConversion">8,0%</strong><small>contratação / expostos</small></div>
+        <div class="kpi"><span>Compreensão</span><strong id="kpiUnderstanding">87,5%</strong><small>entendem a cobertura</small></div>
+        <div class="kpi"><span>Persistência</span><strong id="kpiPersist">95,0%</strong><small>após 90 dias</small></div>
+      </div>
+
+      <div class="dashboard-grid">
+        <div class="panel funnel">
+          <div class="panel-head"><h2>Funil ilustrativo</h2><span>dados simulados</span></div>
+          <div class="funnel-row"><span>Visualizaram</span><b>10.000</b><i style="width:100%"></i></div>
+          <div class="funnel-row"><span>Conheceram</span><b>2.000</b><i style="width:72%"></i></div>
+          <div class="funnel-row"><span>Iniciaram contratação</span><b>1.050</b><i style="width:55%"></i></div>
+          <div class="funnel-row"><span>Contrataram</span><b>800</b><i style="width:42%"></i></div>
+          <div class="funnel-row"><span>Continuam protegidos</span><b>760</b><i style="width:40%"></i></div>
+        </div>
+
+        <div class="panel chart-panel">
+          <div class="panel-head"><h2>Teste A/B — linguagem</h2><span>taxa de contratação</span></div>
+          <div class="bars">
+            <div><label>A • “Seguro Prestamista”</label><div class="bar"><span style="width:45%"></span></div><b>5,4%</b></div>
+            <div class="winner"><label>B • “Proteja seu empréstimo”</label><div class="bar"><span style="width:68%"></span></div><b>8,1%</b></div>
+            <div><label>C • “Proteção para você”</label><div class="bar"><span style="width:58%"></span></div><b>6,9%</b></div>
+          </div>
+          <div class="test-result">🏆 <b>Hipótese:</b> linguagem de benefício é mais fácil de entender e pode aumentar a adesão sem elevar cancelamentos.</div>
+        </div>
+      </div>
+
+      <div class="panel experiments">
+        <div class="panel-head"><h2>Próximos experimentos</h2><span>hipótese → teste → métrica</span></div>
+        <div class="experiment-grid">
+          <article><span>01</span><h3>Momento</h3><p>Simulação × confirmação.</p><strong>Sucesso: conversão + compreensão</strong></article>
+          <article><span>02</span><h3>Linguagem</h3><p>“Seguro” × “Proteção”.</p><strong>Sucesso: adesão sem ↑ cancelamento</strong></article>
+          <article><span>03</span><h3>Educação</h3><p>Explicar antes × oferta direta.</p><strong>Sucesso: ↑ compreensão</strong></article>
+          <article><span>04</span><h3>Personalização</h3><p>Mensagem conforme valor/prazo.</p><strong>Sucesso: relevância percebida</strong></article>
+        </div>
+      </div>
+
+      <div class="quality">
+        <div><span>⚠️</span><div><b>Regulação vem antes do experimento</b><p>O protótipo é conceitual. No cenário atual, a elegibilidade da jornada e das ofertas vinculadas ao consignado INSS deve ser validada antes de qualquer implementação.</p></div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <strong>Mais do que vender um seguro, é sobre proteger o que importa.</strong>
+    <span>Protótipo conceitual • valores ilustrativos</span>
+  </footer>
+</div>
+<script src="js/app.js"></script>
+</body>
+</html>
